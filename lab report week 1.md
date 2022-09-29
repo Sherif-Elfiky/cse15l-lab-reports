@@ -6,7 +6,7 @@ To remotely connect you will open your vscode terminal
 
 Then you will enter ssh cs15lfa22(your two letters here)@ieng6.ucsd.edu
 You will be prompted for your password enter your course specific password, enter that and you should see the following output from terminal.
-![image 3](3.png)
+![image 2](2.png)
 You can run commands from the remote server like ls and cd. Here is a picture of what I saw when I entered ls.
 ![image 4](4.png)
 
@@ -21,5 +21,5 @@ class WhereAmI {
 }
 
 When you run that program you should see a similar output in your terminal(replace my information with yours)
-![image 4](4.png)
+![image 3](3.png)
 
