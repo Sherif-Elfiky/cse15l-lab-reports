@@ -3,3 +3,9 @@ Hello, here you will learn how to log into a course specific account using vscod
 
 To remotely connect you will open your vscode terminal
 ![terminal][new terminal.png]
+
+Then you will enter ssh cs15lfa22(your two letters here)@ieng6.ucsd.edu
+You will be prompted for your password enter your course specific password
+![image 3](3.png)
+
+
