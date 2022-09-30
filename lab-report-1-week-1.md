@@ -30,8 +30,6 @@ SSH back into the server and hit ls, you should see WhereAmiI.java there.
 
 Moving on enter ssh-keygen, you will be promted to enter a file, hit enter to choose the default file. You will then be promted to enter a password.
 
-
-
 enter mkdir .ssh
 then enter exit
 now enter : scp /Users/(your name)/.ssh/id_rsa.pub cs15lfa22(your two letters here)@ieng6.ucsd.edu:~/.ssh/authorized
@@ -40,7 +38,10 @@ now enter : scp /Users/(your name)/.ssh/id_rsa.pub cs15lfa22(your two letters he
 Now you should be able to ssh with your new password
 ![image 6](6.png)
 
+To omptimize your remote running you can ssh and write a command in quotes. For example:
+![image 8](8.png)
 
+Note you can also use a smeicolon between commands to run two commands on the same line/at once.
 
 
 
