@@ -35,6 +35,7 @@ Moving on enter ssh-keygen, you will be promted to enter a file, hit enter to ch
 enter mkdir .ssh
 then enter exit
 now enter : scp /Users/(your name)/.ssh/id_rsa.pub cs15lfa22(your two letters here)@ieng6.ucsd.edu:~/.ssh/authorized
+![image 7](7.png)
 
 Now you should be able to ssh with your new password
 ![image 6](6.png)
