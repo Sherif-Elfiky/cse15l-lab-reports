@@ -21,5 +21,9 @@ static int[] reversed(int[] arr) {
 'newArr[i] = arr[arr.length - i - 1];'
 **The Connection**
 * When we initiliaze newArray it becomes an array of length (arr.length) with zero value.*
-* Then we need to set the value of each index in newArr to the value in newArr starting from the last index in order to reverse the array.
+* Then we need to set the value of each index in newArr to the value in newArr starting from the last index in order to reverse the array.*
 * But when it is arr = newArr instead arr justs gets set to all zeros and newArr is still an array with all zeros*
+
+**Bug 2**
+**In ListExamples.java**
+
