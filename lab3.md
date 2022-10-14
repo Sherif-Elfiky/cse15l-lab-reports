@@ -26,7 +26,7 @@ static int[] reversed(int[] arr) {
  But when it is arr = newArr instead arr justs gets set to all zeros and newArr is still an array with all zeros*
 
 **Picture of code and test**
-![test for reversed](TestReversed.jpg)
+![test for reversed](TestReversed.png)
 
 **Bug 2**
 **In ListExamples.java**
