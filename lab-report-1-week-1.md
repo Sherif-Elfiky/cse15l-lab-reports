@@ -57,11 +57,14 @@ now enter : scp /Users/(your name)/.ssh/id_rsa.pub cs15lfa22(your two letters he
 ![image 7](7.png)
 
 Now you should be able to ssh and scp with your new password
+  
 ![image 6](6.png)
 
 **(6) Optimizing your remote running**
 To omptimize your remote running you can ssh and write a command in quotes. This will allow you to take multiple commands and combine them into one efficienctly. For example:
+  
 ![image 8](8.png)
+  
 This command will run right on the remote server and quit when it is finished.
 
 
