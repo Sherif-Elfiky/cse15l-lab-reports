@@ -45,7 +45,7 @@ copy the public file to your computer by doing the following. SSH with your pass
 
 (your computer) log into your remote account
 $ ssh cs15lfa22(your two letters)@ieng6.ucsd.edu
-<Enter Password>
+Enter Password
 
 (on the server) create an SSH directory
 enter mkdir .ssh
