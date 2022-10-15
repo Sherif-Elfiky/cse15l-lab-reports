@@ -136,4 +136,7 @@ while(n.next != null) {
 
 **The Connection**
 The while loop should have a conditional that says if (n.next == null) break, so that we stop right at the last non-null value in the linkedlist.
-*For some reason the test was not working properly in vscode, but I was able to deduce the output by reading through the code for last method.
+*For some reason the test was not working properly in vscode, but I was able to deduce the output by reading through the code for last method.*
+**Screenshot of the test**
+![scshot](testforll.png)
+
