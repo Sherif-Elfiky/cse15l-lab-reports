@@ -1,8 +1,8 @@
 # Part 1
 **Screenshots**
-![pic 1][showadded.png]
-![pic 2][showlist.png]
-![pic 3][showsearch.png]
+![pic 1](showadded.png)
+![pic 2](showlist.png)
+![pic 3](showsearch.png)
 
 
 
