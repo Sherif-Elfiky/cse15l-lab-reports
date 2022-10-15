@@ -1,4 +1,8 @@
 # Part 1
+**Screenshots**
+![pic 1][show added.png]
+![pic 2][show list.png]
+![pic 3][show search.png]
 
 
 
