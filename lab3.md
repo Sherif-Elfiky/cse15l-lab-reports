@@ -1,73 +1,17 @@
 # Part 1
-**Screenshots**
-![pic 1](showadded.png)
-![pic 2](showlist.png)
-![pic 3](showsearch.png)
+Code for the add 
 
-**Search Engine Code**
+`if (url.getPath().equals("/add")) {
+            String[] newAddition = url.getQuery().split("=");
+            if (newAddition[0].equals("s")) {
+                paths.add(newAddition[1]);
+                return "new word added: " + newAddition[1];
 
-`import java.io.IOException;
-import java.net.URI;
-import java.util.Arrays;
-import java.util.ArrayList;
-
-
-class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
-   
-   int num = 0;
-   ArrayList<String> paths = new ArrayList<>();
-    public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return Arrays.toString(paths.toArray());
-        } else if (url.getPath().contains("/add")) {
-            String newAddition = url.getQuery().split("=")[1];
-            paths.add(newAddition);
-            return "new word added";
-          }
-            
-         else if(url.getPath().contains("/search")) {
-            String wordToSearch = url.getQuery().split("=")[1];
-            ArrayList<String> wordsWithSubstring = new ArrayList<>();
-            for (String path: paths){
-                if (path.contains(wordToSearch)){
-                    wordsWithSubstring.add(path);
-                }
             }
-            return Arrays.toString(wordsWithSubstring.toArray());
+        }`
+     
 
 
-
-        }
-            System.out.println("Path: " + url.getPath());
-            if (url.getPath().contains("/add")) {
-                String[] parameters = url.getQuery().split("=");
-                if (parameters[0].equals("count")) {
-                    num += Integer.parseInt(parameters[1]);
-                    return String.format("Number increased by %s! It's now %d", parameters[1], num);
-                }
-            }
-            return "404 Not Found!";
-        }
-    }
-
-
-class SearchEngine {
-    public static void main(String[] args) throws IOException {
-        if(args.length == 0){
-            System.out.println("Missing port number! Try any number between 1024 to 49151");
-            return;
-        }
-
-        int port = Integer.parseInt(args[0]);
-
-        Server.start(port, new Handler());
-    }
-}
-`
-*In this code I have an add method which will will take the path and check it for /add, if it is present it will check what comes after add seperated by equals and add that to an arraylist.
-The search method works similarly. It takes the path and checks for /search, if this exists then the rest of what comes after will be checked and seperated by =. Then that word we are searching for gets saved into a String called wordToSearch. We then iterate through our existing list of Strings to check if any contain the substring. Any words that contain the substring get put into an arraylist called wordsWithSubstring. This arraylist is returned as an array.*
 
 
 
@@ -78,7 +22,7 @@ The search method works similarly. It takes the path and checks for /search, if 
 **Bug 1**
 **In ArrayExamples.java**
 **The Reversed Method**
-'
+`
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
