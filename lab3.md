@@ -38,7 +38,7 @@ Code for the search:
         }
 
         }
-       ```
+```
 Explantion of search: We first start by checking if search exists within our given path. We then create an array and see if the query has "s" at element[0]. If so we take the element at index 1 which is the word we want to search for within our arraylist we added to called words. We check every word in the arraylist words and if it contains the word we are searching for we add it to a new arraylist called wordsWithSubstring meaning they contain the word we are searching for.
 
 Here is a picture of me using the search on the words we previously added "sherif", "shape".
