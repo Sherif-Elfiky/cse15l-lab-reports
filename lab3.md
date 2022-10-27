@@ -15,7 +15,7 @@ else if (url.getPath().equals("/add")) {
 Explanation of the add: We first start by checking if the path contains the /add. If so, we proceed to split the url query into an array. If the first element in the array is "s", then we can add that to our list of words. We also print "new word added " plus whatever word was added into our arraylist.
 Here is a picture of how it looks when ran
 screenshot: 
-![addword](newword.png)
+
 
 
 
