@@ -1,7 +1,17 @@
 # Part 1
 Code for the add 
 
+```
+else if (url.getPath().equals("/add")) {
+            String[] newAddition = url.getQuery().split("=");
+            if (newAddition[0].equals("s")) {
+                paths.add(newAddition[1]);
+                return "new word added: " + newAddition[1];
 
+            }
+        }
+        
+```
      
 
 
