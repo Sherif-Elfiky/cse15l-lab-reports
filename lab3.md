@@ -1,18 +1,21 @@
 # Part 1
-Code for the add 
+Code for the add:
 
 ```
 else if (url.getPath().equals("/add")) {
             String[] newAddition = url.getQuery().split("=");
             if (newAddition[0].equals("s")) {
-                paths.add(newAddition[1]);
+                words.add(newAddition[1]);
                 return "new word added: " + newAddition[1];
 
             }
         }
         
 ```
-     
+Explanation of the add: We first start by checking if the path contains the /add. If so, we proceed to split the url query into an array. If the first element in the array is "s", then we can add that to our list of words. We also print "new word added " plus whatever word was added into our arraylist.
+Here is a picture of how it looks when ran
+screenshot: 
+![addword](newword.png)
 
 
 
@@ -25,7 +28,7 @@ else if (url.getPath().equals("/add")) {
 **Bug 1**
 **In ArrayExamples.java**
 **The Reversed Method**
-`
+```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -33,7 +36,7 @@ static int[] reversed(int[] arr) {
     }
     return arr;
   }
-`
+```
 
 **The failure inducing input**
 *Any input produced a failure in this code*
