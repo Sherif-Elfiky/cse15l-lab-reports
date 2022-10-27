@@ -1,14 +1,7 @@
 # Part 1
 Code for the add 
 
-`if (url.getPath().equals("/add")) {
-            String[] newAddition = url.getQuery().split("=");
-            if (newAddition[0].equals("s")) {
-                paths.add(newAddition[1]);
-                return "new word added: " + newAddition[1];
 
-            }
-        }`
      
 
 
@@ -30,7 +23,7 @@ static int[] reversed(int[] arr) {
     }
     return arr;
   }
-'
+`
 
 **The failure inducing input**
 *Any input produced a failure in this code*
