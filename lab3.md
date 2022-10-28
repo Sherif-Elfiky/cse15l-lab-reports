@@ -16,10 +16,13 @@ else if (url.getPath().equals("/add")) {
 Explanation of the add: We first start by checking if the path contains the /add. If so, we proceed to split the url query into an array. If the first element in the array is "s", then we can add that to our list of words. We also print "new word added " plus whatever word was added into our arraylist.
 Here is a picture of how it looks when ran it by adding my name. Sherif gets added to the arraylist called words.
 screenshot: 
-![picone](picone.png)
-Here I will add agaiin, but this time using the word shape. This adds the word shape to our arraylist called words.
+![12](12.png)
+Here I will add again, but this time using the word sam. This adds the word sam to our arraylist called words.
 screenshot:
-![pictwo](pictwo.png)
+![13](13.png)
+
+We will use add once more to add the word shape, after we add it, it will also be in our arraylist words. So now our arraylist should be ["sherif, "sam", "shape].
+![14](14.png)
 
 Code for the search:
 ```
@@ -42,9 +45,12 @@ Code for the search:
 Explantion of search: We first start by checking if search exists within our given path. We then create an array and see if the query has "s" at element[0]. If so we take the element at index 1 which is the word we want to search for within our arraylist we added to called words. We check every word in the arraylist words and if it contains the word we are searching for we add it to a new arraylist called wordsWithSubstring meaning they contain the word we are searching for. At the end of searching we return our array of words matching the given substring.
 
 Here is a picture of me using the search on the words we previously added "sherif", "shape".
-I will search for sh and it should return sherif and shape given they both contain the string sh.
-![picthree](picthree.png)
+I will search for sh and it should return sherif and shape given they both contain the string sh. It will not return sam because sam does not have an sh.
+![15](15.png)
 As expected when we search for sh we get sherif and shape meaning our search worked!
+Now lets search again but this time search for s, since all words contain s we should see every word.
+![16](16.png)
+Now we see all the words in our arraylist because all of them contain an s.
 
 
 
