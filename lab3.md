@@ -22,7 +22,7 @@ else if (url.getPath().equals("/add")) {
         }
         
 ```
-Explanation of the add: We first start by checking if the path contains the /add. If so, we proceed to split the url query into an array. If the first element in the array is "s", then we can add that to our list of words. We also print "new word added " plus whatever word was added into our arraylist.
+Explanation of the add: We first start by checking if the path contains the /add. If so, we proceed to split the url query into an array. If the first element in the array is "s", then we can add that to our list of words. We also print "new word added " plus whatever word was added into our arraylist. In order to use the add we need to add /search?s=(word we want to add).
 Here is a picture of how it looks when ran it by adding my name. Sherif gets added to the arraylist called words.
 screenshot: 
 ![12](12.png)
@@ -52,6 +52,7 @@ Code for the search:
         }
 ```
 Explantion of search: We first start by checking if search exists within our given path. We then create an array and see if the query has "s" at element[0]. If so we take the element at index 1 which is the word we want to search for within our arraylist we added to called words. We check every word in the arraylist words and if it contains the word we are searching for we add it to a new arraylist called wordsWithSubstring meaning they contain the word we are searching for. At the end of searching we return our array of words matching the given substring.
+To use the search for the path we need to write /search?s=(string we want to search for).
 
 Here is a picture of me using the search on the words we previously added "sherif", "shape".
 I will search for sh and it should return sherif and shape given they both contain the string sh. It will not return sam because sam does not have an sh.
