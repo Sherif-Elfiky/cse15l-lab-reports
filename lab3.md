@@ -1,4 +1,13 @@
 # Part 1
+Code for an empty path:
+'''
+   if (url.getPath().equals("/")) {
+            return "Lets add a string and search for it";
+'''
+What we see when we enter our server. Since the path is empty when we enter our server we see lets add a string and search for it.
+Here is a screenshot of what it looks like:
+![11][11.png]
+
 Code for the add:
 
 ```
