@@ -1,10 +1,10 @@
 # Part 1
-Code for an empty path:
+Code for an empty path on our search engine:
 ```
    if (url.getPath().equals("/")) {
             return "Lets add a string and search for it";
 ```
-What we see when we enter our server. Since the path is empty when we enter our server we see lets add a string and search for it.
+What we see when we enter our server. Since the path is empty when we enter our server we see lets add a string and search for it. This prompts the user to use either the add or search functions described below.
 Here is a screenshot of what it looks like:
 ![11](11.png)
 
