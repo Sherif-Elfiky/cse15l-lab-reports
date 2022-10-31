@@ -7,28 +7,28 @@ The -N will display line numbers of a file you choose. <br>
 Here is an example of me using the code in technical/911report/chapter-1.txt <br>
 the terminal commmands: <br>
 ```
-cd technical/911report
-less -N chapter-1.txt
+less -N technical/911report/chapter-1.txt
 ```
 screenshot: <br>
 ![less -N](lessn.png)
 Here we used less -N to display the file numbers of chapter-1.txt. Note: some of the line numbers are repeated because the screenshot was not fullscreen, so some lines extend to a new line.
 
-**(2)** <br>
-Another command with less is 
-less -E filename
-This command will close the file upon reaching the end of the scroll. This is useful if you want to read through a file and then have it close without having to take time to hit q(quit).
+Lets display the line numbers for technical/government/About_LSC/Comments_on_semiannual.txt. <br>
+```
+less -N technical/government/About_LSC/Comments_on_semiannual.txt
+```
 screenshot:
-![less -E](lessE.png)
-There isn't really a way I can show the command in action since it just closes the file, but above is a picture of me using the command.
+![less -N2](lessn2.png)
+Here we have the file Comments_on_semiannual.txt with line numbers shown upon entering the command above. <br>
 
-**(3)**
+Lastly we will display the line numbers for technical/biomed/1468-6708-3-3.txt. <br>
+```
+less -N technical/biomed/1468-6708-3-3.txt 
+```
+screenshot:
+![less -N3](lessn3.png)
+
+**(2)** <br>
 
 
 
-
-**find**
-
-
-
-**grep**
