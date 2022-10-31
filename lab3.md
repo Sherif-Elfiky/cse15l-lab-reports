@@ -4,6 +4,7 @@
 **(1)** <br>
 One useful command option is less -N filename <br>
 The -N will display line numbers of a file you choose. <br>
+This is a useful command if you want to keep track of where you are in the file when reading, you can also use this to keep track of which line items of interest were on.
 Here is an example of me using the code in technical/911report/chapter-1.txt <br>
 the terminal commmands: <br>
 ```
@@ -59,7 +60,7 @@ less -X technical/biomed/1471-213X-1-1.txt
   
  
  **(3)**
- The last command option I will talk about is filtering by words with less. To filter by words you need to enter less filename to open the file then &(word to filter). This excludes any lines that dont contain the word we are searching for.
+ The last command option I will talk about is filtering by words with less. To filter by words you need to enter less filename to open the file then &(word to filter). This excludes any lines that dont contain the word we are searching for. This is definitely a useful command if you are looking for keywords or phrases and dont really care for the rest of the text file. Say for you are searching for one item in a list of thousands of items.
  Here is the first example
  ```
  less technical/911report/chapter-1.txt (hit enter/return)
