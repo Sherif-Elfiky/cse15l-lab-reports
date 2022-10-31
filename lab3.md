@@ -69,7 +69,7 @@ less -X technical/biomed/1471-213X-1-1.txt
  This command will filter the output to all lines in technical/911report/chapter-1.txt that contain the word We. 
  The ouput of this program is shown in the screenshot below <br> 
  ![filter](filter.png)
- So, the output of this program ended up being we have some planes. This is definely a usefuk command if you want to search for key sentences within a file <br>
+ So, the output of this program ended up being we have some planes. This is definely a useful command if you want to search for key sentences within a file <br>
 
  
  For another example:
@@ -92,6 +92,9 @@ less technical/biomed/1468-6708-3-1.txt (hit enter/return)
  screenshot:
   ![filter3](filter3.png)
  As expected every other line that doesnt contain older got filtered out so we ended up with just "Older adults are frequently counseled to lose weight,".
+ 
+ 
+ It is also important to not we can use this command to do the opposite or see all the lines that dont containn the word. We would do this by the negation of & or !&(word to search).
  
  
  
