@@ -59,6 +59,42 @@ less -X technical/biomed/1471-213X-1-1.txt
   
  
  **(3)**
+ The last command option I will talk about is filtering by words with less. To filter by words you need to enter less filename to open the file then &(word to filter). This excludes any lines that dont contain the word we are searching for.
+ Here is the first example
+ ```
+ less technical/911report/chapter-1.txt (hit enter/return)
+ &We
+ ``` 
+ This command will filter the output to all lines in technical/911report/chapter-1.txt that contain the word We. 
+ The ouput of this program is shown in the screenshot below <br> 
+ ![filter][filter.png]
+ So, the output of this program ended up being we have some planes. This is definely a usefuk command if you want to search for key sentences within a file <br>
 
+ 
+ For another example:
+ ```
+ less technical/plos/journal.pbio.0020013.txt (hit enter/return)
+ &eukaryotic 
+ ```
+ This command will filter out the lines in technical/plos/journal.pbio.0020013.txt that dont contain eukaryotic 
+ 
+ screenshot:
+  ![filter2][filter2.png]
+ This command ended up filtering every other sentence besides " Inside eukaryotic cells there is a massive protein complex called the proteasome whose" out.
+ 
+ Lastly 
+ ```
+less technical/biomed/1468-6708-3-1.txt (hit enter/return)
+ &Older
+ ```
+  This command will filter out the lines in technical/biomed/1468-6708-3-1.txt that dont contain Older.
+ screenshot:
+  ![filter3][filter3.png]
+ As expected every other line that doesnt contain older got filtered out so we ended up with just "Older adults are frequently counseled to lose weight,".
+ 
+ 
+ 
+
+ 
 
 
