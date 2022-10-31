@@ -94,7 +94,7 @@ less technical/biomed/1468-6708-3-1.txt (hit enter/return)
  As expected every other line that doesnt contain older got filtered out so we ended up with just "Older adults are frequently counseled to lose weight,".
  
  
- It is also important to not we can use this command to do the opposite or see all the lines that dont containn the word. We would do this by the negation of & or !&(word to search).
+ It is also important to note we can use this command to do the opposite or see all the lines that dont containn the word. We would do this by the negation of & or !&(word to search).
  
  
  
