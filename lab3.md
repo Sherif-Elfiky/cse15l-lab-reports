@@ -42,15 +42,16 @@ less -X technical/biomed/1471-213X-1-1.txt
  Lets show another example
  ```
   less -X  technical/plos/journal.pbio.0020001.txt
-  ```
+ ```
     ![lessx2](lessx2.png)
   Here I used less -X to open the contents of technical/plos/journal.pbio.0020019.txt so I could write new commands while still looking at the contents of this file. <br>
   The final example for less -X is as follows <br>
-  ```
+ ```
  less -X technical/biomed/1471-213X-1-2.txt
-  ```
+ ```
+ 
   screenshot 
-    ![lessx3](lessx3.png)
+  ![lessx3](lessx3.png)
   Here I used less -X again to keep the contents of technical/biomed/1471-213X-1-2.txt visible while still being able to type new commands.
   
   
