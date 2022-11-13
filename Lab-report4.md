@@ -19,14 +19,14 @@ So the keys we hit are(not including the seperating commas) ```/start, <enter>, 
  
  Screenshot 1:
  ![start](sc1.png)
- Expanation: This is me entering /start to search for the first occurence of start. You can see it jumps to and hightlights start. <br>
+ Expanation: This is me entering "/start" to search for the first occurence of start. You can see it jumps to and hightlights start. <br>
  Screenshot 2: 
  ![ce](sc2.png)
   Expanation: This is after me entering "ce" which clears that entry now we need to enter "base". <br>
  
  Screenshot 3:
  ![enter base](sc4.png)
- Expanation: This is my screen after entering base now we need to <escape>. <br>
+ Expanation: This is my screen after entering "base" now we need to <escape>. <br>
  
   
  Screenshot 4:
