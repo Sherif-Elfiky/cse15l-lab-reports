@@ -34,7 +34,7 @@ So the keys we hit are(not including the seperating commas) /start, <enter>, ce,
  
   Screenshot 5:
  ![save quit](sc3.png)
-  Expanation: After hitting :wq! we save and quit our vim edits. Now all occurences of start are changes to base. <br>
+  Expanation: After hitting :wq! we save and quit our vim edits. Now all occurences of start are changed to base. <br>
  
  
  
@@ -55,7 +55,7 @@ So the keys we hit are(not including the seperating commas) /start, <enter>, ce,
  
  
  *Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?* <br>
- I would prefer to make the edits while logged into the remove server. My first reason is the command for scp is very long and I often forget the :~ at the end of the command which can cause issues. I also think working on things remotely is nice to because you do not have to store anything on your local computer. <br>
+ I would prefer to make the edits while logged into the remove server. My first reason is the command for scp is very long and I often forget the :~ at the end of the command which can cause issues. I also think working on things remotely is nice because you do not have to store any files on your own computer. <br>
  
  *What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)* <br>
 Say there are many files I want to make edits to, I would not want to copy a large amount of files over from my local computer because that can be quite time consuming. Asides from that, I would not mind doing either because I think it is important to be able to do both.
