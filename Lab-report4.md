@@ -25,7 +25,7 @@ So the keys we hit are(not including the seperating commas) /start, <enter>, ce,
  
  Screenshot 3:
  ![enter base](sc4.png)
- Expanation: This my screen after entering base now we need to hit escape. <br>
+ Expanation: This is my screen after entering base now we need to hit escape. <br>
  
   
  Screenshot 4:
