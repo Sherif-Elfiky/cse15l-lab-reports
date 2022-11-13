@@ -16,6 +16,9 @@ So the keys we hit are(not including the seperating commas) /start, <enter>, ce,
  
  <br>
  
+ Screenshot 1:
+ ![start](sc1.png)
+ 
  
  
 
