@@ -11,3 +11,7 @@ modfied to base.
 
 So the keys we hit are(not including the seperating commas) /start, <enter>, ce, base, n., n. : this is a total of 17 keys pressed.
  If we count saving and quiting the file which has a command of :wq! then we have 21 keys pressed.
+ 
+ 
+ 
+ **PART 2**
