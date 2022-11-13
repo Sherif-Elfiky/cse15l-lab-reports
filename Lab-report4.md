@@ -11,8 +11,9 @@ Then again we hit n to jump to the next start, then . to replace that word. Then
 modfied to base.
 <br>
 
-So the keys we hit are(not including the seperating commas) /start, <enter>, ce, base, <Esc>, n., n. : this is a total of 18 keys pressed.
- If we count saving and quiting the file which has a command of :wq! then we have 22 keys pressed. 
+So the keys we hit are(not including the seperating commas) ```/start, <enter>, ce, base, <Esc>, n., n. ``` : 
+ this is a total of 18 keys pressed.
+ If we count saving and quiting the file which has a command of ```:wq!``` then we have 22 keys pressed. 
  
  <br>
  
@@ -21,20 +22,20 @@ So the keys we hit are(not including the seperating commas) /start, <enter>, ce,
  Expanation: This is me entering /start to search for the first occurence of start. You can see it jumps to and hightlights start. <br>
  Screenshot 2: 
  ![ce](sc2.png)
-  Expanation: This is after me hitting ce which clears that entry now we need to enter base. <br>
+  Expanation: This is after me entering "ce" which clears that entry now we need to enter "base". <br>
  
  Screenshot 3:
  ![enter base](sc4.png)
- Expanation: This is my screen after entering base now we need to hit escape. <br>
+ Expanation: This is my screen after entering base now we need to <escape>. <br>
  
   
  Screenshot 4:
  ![n.](sc5.png)
-  Expanation: After hitting n. we jump to the next entry entry of start and change it base. Repeat n. one more time to change the last start to base. <br>
+  Expanation: After entering "n." we jump to the next entry entry of start and change it base. Repeat "n." one more time to change the last start to base. <br>
  
   Screenshot 5:
  ![save quit](sc3.png)
-  Expanation: After hitting :wq! we save and quit our vim edits. Now all occurences of start are changed to base. <br>
+  Expanation: After entering ":wq!" we save and quit our vim edits. Now all occurences of start are changed to base. <br>
  
  
  
