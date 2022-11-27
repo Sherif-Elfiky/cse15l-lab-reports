@@ -1,4 +1,4 @@
-**Lab Report 5**
+**Lab Report 5** <br>
 *My Partner for this assignment is Matthew Zabaco*
 
 Github repo w/ good implementation which passes all test cases:
