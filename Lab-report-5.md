@@ -7,7 +7,6 @@
 ```
 # Create your grading script here
 
-#set -e
 
 JU=".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar"
 
@@ -78,6 +77,14 @@ Github repo w/ wrong filename
 !![wrong name](wrongfilename.png)
 Similar to the repository with the compiler error, this repository has a file saved with the wrong name, so we do not give it any credit. However, we
 do instruct the student to check their file is saved with the correct name.
+
+
+**A trace of the github repo with the compile error**
+our first statement in the SH file assigns JU the value of the junit path. (no std err or out) <br>
+Our second statement removes any previous student submission with the command rm -rf (no std err or out) <br>
+Then we git clone the argument passed in by the user and save that to our student submission variable. (no std err or out) <br>
+In our next statement we assign the variable file the value of the path to the student submission. (no std err or out) <br>
+Then we check if the file exists and if it does we print('file exists'). Since the file exists we saw file exists in the standard output.
 
 
 
