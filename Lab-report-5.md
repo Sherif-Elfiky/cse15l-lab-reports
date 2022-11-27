@@ -54,13 +54,14 @@ grep -q "2 tests" JunitOut.txt
 if [[ $? -eq 0 ]]; then
     SCORE=2
 fi
-grep -q "1 tests" JunitOut.txt
+grep -q "Failures: 1" JunitOut.txt
 if [[ $? -eq 0 ]]; then
     SCORE=1
 fi
 
 
 echo "Your score is: $SCORE / 2"
+
 ```
 
 
