@@ -99,6 +99,9 @@ ListExamples.java:15: error: ';' expected
                         ^
 1 error
 ```
+Now that we tried to compile the student submission we check to see if the file had some error compiling. <br>
+Since the file could not compile we enter the if which prints('Your code did not compile. You recieve a 0'). Then we exit with exit code 1 since we could not compile the file and therefore can not run it.
+Nothing after that last statement runs because the code didn't compile.
 
 
 
