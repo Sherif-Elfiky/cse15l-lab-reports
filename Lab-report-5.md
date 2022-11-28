@@ -80,18 +80,19 @@ do instruct the student to check their file is saved with the correct name.
 
 
 **A trace of the github repo with the compile error** <br>
-our first statement in the SH file assigns JU the value of the junit path. (no std err or out) <br>
-Our second statement removes any previous student submission with the command rm -rf (no std err or out) <br>
+our first statement in the SH file assigns JU the value of the junit path. (return code 0) <br>
+Our second statement removes any previous student submission with the command rm -rf (return code 0) <br>
 Then we git clone the argument passed in by the user and save that to our student submission variable. That prints cloning into 'student submission'
-to our standard output <br>
-The statement after that simply prints successful clone <br>
-In our next statement we assign the variable file the value of the path to the student submission. (no std err or out) <br>
-Then we check if the file exists and if it does we print('file exists'). Since the file exists we saw 'file exists' in the standard output. <br>
-After that there is an else statement that would print file doesnt exist, but that doesn't run because we entered the if not the else. <br>
-We then copy our junit library to the student submisison folder and print 'junit copied'. <br>
-Then we copy the TestListExamples File to student submission and change our current directory to the student submssion <br>
-We then print 'in student submission' to indicate we changed our current directory. <br>
-Then we compile the file with javac and our junit variable. This gives us standard err which we redirected to a different text file. <br>
+to our standard output. (return code 0) <br>
+The statement after that simply prints 'successful clone' (return code 0) <br>
+In our next statement we assign the variable file the value of the path to the student submission. (return code 0) <br>
+Then we check if the file exists and if it does we print('file exists'). Since the file exists we saw 'file exists' in the standard output. 
+(return code 0) <br>
+After that there is an else statement that would print file doesnt exist, but that doesn't run because we entered the if not the else. (return <br>
+We then copy our junit library to the student submisison folder and print 'junit copied'. (return code 0) <br>
+Then we copy the TestListExamples File to student submission and change our current directory to the student submssion . (return code 0) <br>
+We then print 'in student submission' to indicate we changed our current directory. (return code 0) <br>
+Then we compile the file with javac and our junit variable. This gives us standard err which we redirected to a different text file. (return code 1) <br>
 The standard error contents of that file are:
 ```
 ListExamples.java:15: error: ';' expected
@@ -100,7 +101,7 @@ ListExamples.java:15: error: ';' expected
 1 error
 ```
 Now that we tried to compile the student submission we check to see if the file had some error compiling. <br>
-Since the file could not compile we enter the if which prints('Your code did not compile. You recieve a 0'). Then we exit with exit code 1 since we could not compile the file and therefore can not run it.
+Since the file could not compile we enter the if which prints('Your code did not compile. You recieve a 0'). (return code 1) <br> Then we exit with exit code 1 since we could not compile the file and therefore can not run it (return code 1).
 Nothing after that last statement runs because the code didn't compile.
 
 
