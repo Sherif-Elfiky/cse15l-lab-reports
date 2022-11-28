@@ -79,7 +79,7 @@ Similar to the repository with the compiler error, this repository has a file sa
 do instruct the student to check their file is saved with the correct name.
 
 
-**A trace of the github repo with the compile error**
+**A trace of the github repo with the compile error** <br>
 our first statement in the SH file assigns JU the value of the junit path. (no std err or out) <br>
 Our second statement removes any previous student submission with the command rm -rf (no std err or out) <br>
 Then we git clone the argument passed in by the user and save that to our student submission variable. That prints cloning into 'student submission'
