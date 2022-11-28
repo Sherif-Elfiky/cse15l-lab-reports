@@ -87,7 +87,7 @@ to our standard output <br>
 The statement after that simply prints successful clone <br>
 In our next statement we assign the variable file the value of the path to the student submission. (no std err or out) <br>
 Then we check if the file exists and if it does we print('file exists'). Since the file exists we saw 'file exists' in the standard output. <br>
-After that there is an else statement that would print file doesnt exist, but that doesn't get run because we entered the if not the else. <br>
+After that there is an else statement that would print file doesnt exist, but that doesn't run because we entered the if not the else. <br>
 We then copy our junit library to the student submisison folder and print 'junit copied'. <br>
 Then we copy the TestListExamples File to student submission and change our current directory to the student submssion <br>
 We then print 'in student submission' to indicate we changed our current directory. <br>
